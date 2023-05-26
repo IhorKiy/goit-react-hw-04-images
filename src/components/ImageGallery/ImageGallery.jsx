@@ -8,7 +8,7 @@ import { Loader } from 'components/Loader/Loader';
 
 const KEY = '34669214-e080ea2af1c664bb939ebc002';
 
-const BASE_URL = `https://pixabay.com/api/?key=${KEY}&image_type=photo&orientation=horizontal&per_page=3`;
+const BASE_URL = `https://pixabay.com/api/?key=${KEY}&image_type=photo&orientation=horizontal&per_page=12`;
 
 export function ImageGallery({
   page,
