@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import css from './ImageGalleryItem.module.css'
  
 export const ImageGalleryItem = ({ id, img, imgLarge }) => {
-  return (
+    return (
     <li className={css.imageGalleryItem} key={id}>
       <img className={css.imageGalleryItem__image} src={img} alt='' useMap={imgLarge}/>
     </li>
