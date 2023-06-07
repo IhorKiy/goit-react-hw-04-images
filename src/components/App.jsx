@@ -34,7 +34,7 @@ export const App = () => {
   };
 
   const incrementPage = () => {
-    setPage(prevState => prevState.page + 1);
+    setPage(prevState => prevState + 1);
   };
 
   return (

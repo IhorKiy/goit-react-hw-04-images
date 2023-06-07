@@ -14,7 +14,7 @@ export function Searchbar ({onSubmit, pageReset})  {
     setInput( evt.currentTarget.value );
   };
 
-    const handleProps = (evt) => {
+  const handleProps = (evt) => {
     evt.preventDefault();
 
     if (input.trim() === '') {
