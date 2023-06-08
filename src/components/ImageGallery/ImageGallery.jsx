@@ -21,8 +21,8 @@ export class ImageGallery extends Component {
   };
 
   toggleModal = e => {
-    // console.log(e.target.useMap);
-    this.props.onTogle();
+  
+    this.props.onToggle();
     this.props.onModal(e.target.useMap);
   };
 
